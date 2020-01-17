@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/pl_PL/locale.xml
+  *
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="pl_PL" full_name="Język Polski">
+	<message key="plugins.generic.staticPages.pageTitle">Tytuł</message>
+	<message key="plugins.generic.staticPages.staticPages">Statyczne strony</message>
+	<message key="plugins.generic.staticPages.displayName">Plugin statycznych stron</message>
+	<message key="plugins.generic.staticPages.description">Ta wtyczka umożliwia statyczne zarządzanie treścią.</message>
+	<message key="plugins.generic.staticPages.content">Zawartość</message>
+	<message key="plugins.generic.staticPages.path">Scieżka</message>
+	<message key="plugins.generic.staticPages.requirement.tinymce"><![CDATA[<p> <strong> Wtyczka TinyMCE musi być zainstalowana i włączona, aby dodawać / edytować zawartość. </strong> </p>]]></message>
+	<message key="plugins.generic.staticPages.editAddContent">Edytuj/Dodaj Zawartość</message>
+	<message key="plugins.generic.staticPages.addStaticPage">Dodaj statyczną stronę</message>
+	<message key="plugins.generic.staticPages.addNewPage">Dodaj nową stronę</message>
+	<message key="plugins.generic.staticPages.editStaticPage">Edytuj statyczną stronę</message>
+	<message key="plugins.generic.staticPages.noneCreated">Nie utworzono żadnych stron statycznych.</message>
+	<message key="plugins.generic.staticPages.settingInstructions">Poniższy formularz pokazuje wszystkie utworzone strony statyczne. Możesz edytować lub usuwać strony za pomocą linków po prawej stronie.</message>
+	<message key="plugins.generic.staticPages.editInstructions">Użyj poniższego formularza, aby dodać / edytować zawartość strony.</message>
+	<message key="plugins.generic.staticPages.pathRegEx">Pole ścieżki musi zawierać tylko znaki alfanumeryczne plus „.”, „/”, „-” i „_”.</message>
+	<message key="plugins.generic.staticPages.viewInstructions"><![CDATA[<p> Ta strona będzie dostępna pod adresem: <blockquote> {$pagesPath} </blockquote> ... gdzie %PATH% jest ścieżką wprowadzoną powyżej. <strong> Uwaga: </strong> żadna z dwóch stron nie może mieć tej samej ścieżki. Użycie ścieżek wbudowanych w system może spowodować utratę dostępu do ważnych funkcji. </p>]]></message>
+	<message key="plugins.generic.staticPages.duplicatePath">Ta ścieżka już istnieje dla innej strony statycznej.</message>
+	<message key="plugins.generic.staticPages.pageSaved">Strona została pomyślnie zapisana.</message>
+	<message key="plugins.generic.staticPages.pageDeleted">Strona została pomyślnie usunięta.</message>
+	<message key="plugins.generic.staticPages.noneExist">Nie utworzono żadnych stron</message>
+</locale>

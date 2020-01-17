@@ -1,0 +1,149 @@
+.pkp_head_wrapper{	    
+	    top:10px;
+	    padding-top: 0px;
+}
+.uniwersytet{
+	width: 100%;
+    height: 83px;
+    background-color: #cb7512;
+}
+.uniwersytet1{
+height: 13px;
+background-color: #fff;
+	}
+
+.pedagogiczny{
+	width: 1340px;
+	height: 83px;
+	display: block;
+	margin: 0 auto;
+	position: inherit;
+}
+
+.pedagogiczny .logo-top{
+	position: relative;
+    margin-left: 45px;
+    padding-left: 70px;
+    display: block;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.2em;
+    text-transform: uppercase;    
+    max-width: 500px;
+    width: 100%;
+}
+.pedagogiczny .logo-top:before{
+	content: '';
+    position: absolute;
+    display: block;
+    width: 52px;
+    height: 52px;
+    top: 50%;
+    left: 0;
+    margin-top: -26px;
+	background-image: url("https://ojs-test.up.krakow.pl/public/site/up-logo-s.png");
+	
+}
+.pedagogiczny .logo-top strong, .pedagogiczny .logo-top span{
+	position: relative;
+	top:25px;
+}
+
+.pedagogiczny:before{
+content:'';
+display: block;
+width:69px;
+height:13px;
+position: absolute;
+left:-23px;
+background-image: url(https://ojs-test.up.krakow.pl/public/site/spout_1.png);
+background-size: 69px 13px;
+top:83px;
+background-color: #cb7512;
+}
+
+.pkp_structure_head{
+	background-image: url(https://beta9.up.krakow.pl/wp-content/uploads/sites/27/2018/09/tlo_2.png);
+	border-bottom: none;
+}
+
+.pkp_structure_head .is_text{
+	color: #30809B!important;
+	top:10px;
+	position: relative;
+}
+
+.navbar-default, .header_view {
+    background-color: rgba(0,0,0,0);
+     border-color: rgba(0,0,0,0); 
+}
+a {
+    color: #f39c12;
+    text-decoration: none;
+}
+.navbar .nav>li>a, .header_view .nav>li>a {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar-default .nav>li>a, .header_view .nav>li>a {
+    color: #393a35;}
+
+
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 60px;
+    /* padding-bottom: 2px; */
+    border-bottom: 4px solid #79a736;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #393a35;
+    white-space: nowrap;
+}
+.dropdown-menu>li>a {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .header_view .navbar-nav .open .dropdown-menu>li>a {
+    color: #c87f0a;
+}
+.header_view a {
+    display: inline-block;
+    padding: 0px;
+    color: inherit; 
+}
+.article-abstract {
+    text-align: justify;
+}

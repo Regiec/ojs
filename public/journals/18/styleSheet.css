@@ -1,0 +1,642 @@
+body{
+/*	    background-image: url(https://beta9.up.krakow.pl/wp-content/uploads/sites/27/2018/09/tlo_2.png);*/
+}
+
+.pkp_head_wrapper{
+
+	    
+	    top:10px;
+	    padding-top: 0px;
+}
+.uniwersytet{
+	width: 100%;
+    height: 83px;
+    background-color: #30809B;
+}
+.uniwersytet1{
+height: 13px;
+background-color: #fff;
+	}
+
+.pedagogiczny{
+	width: 1340px;
+	height: 83px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+
+.pedagogiczny .logo-top{
+	position: relative;
+    left: -15px;
+    padding-left: 70px;
+    display: block;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    
+    max-width: 400px;
+    width: 100%;
+}
+.pedagogiczny .logo-top:before{
+	content: '';
+    position: absolute;
+    display: block;
+    width: 52px;
+    height: 52px;
+    top: 50%;
+    left: 0;
+    margin-top: -26px;
+	background-image: url("https://ojs-test.up.krakow.pl/public/site/up-logo-s.png");
+	
+}
+.pedagogiczny .logo-top strong, .pedagogiczny .logo-top span{
+	position: relative;
+	top:25px;
+}
+
+.pedagogiczny:before{
+content:'';
+display: block;
+width:69px;
+height:13px;
+position: absolute;
+left:-23px;
+background-image: url(https://ojs-test.up.krakow.pl/public/site/spout_1.png);
+background-size: 69px 13px;
+top:83px;
+background-color: #30809B;
+}
+
+.pkp_navigation_primary > li > a{
+	border: none;
+	box-sizing: border-box;
+	padding:10px 15px;
+	margin: 0px;
+	text-transform: uppercase;
+	
+}
+.pkp_navigation_primary > li > a:hover{
+	background-color:  #30809B;
+	border-radius: 2px;
+	transition: 0.5s;
+
+}
+
+.links a, .read_more, .content > ul >li > a{
+	display: inline-block;
+    padding: 12px 25px;
+    background-color:  #30809B;
+    color: #fff !important;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+
+.obj_issue_toc img{
+	max-width:35%;
+}
+
+
+.content > ul >li > a{
+	width: 100%;
+	text-align:center;
+	}
+
+.pkp_page_index .current_issue .read_more:after{
+	top:13px;
+}
+
+.pkp_page_index .current_issue .read_more{
+	margin-top: 10px;
+}
+
+.links a:hover{
+	background-color: #005890;
+	transition: 0.5s;
+}
+
+/*.pkp_site_name .is_text:after{
+	content:"UNIWERSYTET PEDAGOGICZNY IM KOMISJI EDUKACJI NARODOWEJ W KRAKOWIE";
+	font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 1.3em;
+    width: 250px;
+    display: block;
+    top:10px;
+    margin-top: 10px
+}
+*/
+.pkp_site_name{
+	top:10px;
+	
+
+}
+
+/*.pkp_site_name:before {
+	content:'';
+	position: absolute;
+
+	display: block;
+   
+    width: 52px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-image: url("https://ojs-test.up.krakow.pl/public/site/up-logo-s.png");
+	background-size: 52px 52px;
+}*/
+/*.pkp_site_name .is_text{
+	margin-left: 150px;
+	padding-left: 30px;
+	border-left: 2px solid #0069A1;
+}
+*/
+.pkp_structure_head{
+	background-image: url(https://beta9.up.krakow.pl/wp-content/uploads/sites/27/2018/09/tlo_2.png);
+	border-bottom: none;
+}
+
+.pkp_structure_head .is_text{
+	color: #30809B!important;
+	top:10px;
+	position: relative;
+}
+.pkp_structure_head #navigationPrimary > li > a{
+	color: #000;
+}
+
+.slider{
+background-image: url("https://czasopisma.up.krakow.pl/cache/slider.jpg");
+	height: 300px;
+	width: 100%;
+    
+}
+
+#pkp_content_footer .container{
+	max-width: 100%;
+    width: 100%;
+    
+}
+#pkp_content_footer .container .row{
+	margin-left: -.50rem;
+    margin-right: -.50rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    }
+
+    #pkp_content_footer .container .row .logoup {
+    	width: 52px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-image: url("https://ojs-test.up.krakow.pl/public/site/up-logo-s.png");
+	background-size: 52px 52px;
+	margin-top: 23px;
+
+	}
+
+#pkp_content_footer .container .row .s12 {
+	width:25%;
+}
+
+#pkp_content_footer .footer-copyright{
+	overflow: hidden;
+    min-height: 50px;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0px;
+    color: #fff;
+
+}
+
+.pkp_footer_content a{
+	color:#fff;
+}
+
+#pkp_content_footer .footer-copyright .container{
+text-align: center;
+} 
+.pkp_brand_footer{
+	display:none;
+}
+
+.journals ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pkp_page_index .journals{
+	margin-top: 30px;
+    
+    margin: 30px auto;
+}
+
+#pkp_content_main{
+    padding: 0;
+    padding-left:20px;
+    padding-left:20px;
+    box-sizing: border-box;
+}
+
+.pkp_page_index .journals ul > li {
+padding:10px;
+}
+
+.pkp_structure_footer:before{
+content:'';
+display: block;
+width:69px;
+height:13px;
+position: absolute;
+left:12px;
+background-image: url(https://ojs-test.up.krakow.pl/public/site/sput_footer.png);
+background-size: 69px 13px;
+}
+
+.pkp_structure_footer_wrapper{
+	    background: #276E85;
+	    padding-top: 0px;
+	    margin-top: 0px;
+	    color: #fff;
+
+}
+.pkp_site_name_wrapper{
+	height: 84px;
+	padding-left:25px;
+	padding-right: 25px;
+}
+.pkp_navigation_primary_row{
+	
+}
+
+#navigationUser a{
+	color: #fff;
+	background-color: #30809B;
+}
+#navigationUser .task_count{
+	color:red;
+}
+
+.pkp_page_index .journals ul > li{
+	padding-top: 30px;
+	padding-bottom:30px;
+}
+
+
+.pkp_page_index .journals > ul > li{
+		    border: 1px solid #ddd;
+	}
+
+.pkp_structure_sidebar{
+	margin-left: 20px;
+}
+
+.main_pkp_structure_sidebar .content{
+background-image: url("https://czasopisma.up.krakow.pl/cache/pioro.jpg");
+    width: 300px;
+    height: 200px;
+    background-size: 100%;
+}
+
+.pkp_footer_content{
+	padding: 0;
+	padding-top: 30px;
+}
+.pkp_footer_content .s12{
+	
+	
+	text-align: left;
+}
+.pkp_footer_content .foot-0:before{
+	content:'';
+	text-align: center;
+position:absolute;
+	display: block;
+   left:20px;
+    width: 52px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-image: url("https://ojs-test.up.krakow.pl/public/site/up-logo-s.png");
+	background-size: 52px 52px;
+}
+.pkp_footer_content .foot-3-box{
+	position: relative;
+	padding-left:116px;
+	text-align: left;
+}
+.pkp_footer_content .foot-3-box:before{
+	content:'';
+	position:absolute;
+	left: 46px;
+	display: block;
+   
+    width: 54px;
+    height: 54px;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-image: url("https://czasopisma.up.krakow.pl/cache/bip_logo.png");
+	background-size: 54px 54px;
+	}
+
+	#pkp_content_footer .container .row .s12{
+	width:25%;
+}
+@media only screen and (min-width: 1400px) {
+.pkp_site_name, .pkp_navigation_user, .pkp_structure_content, .pkp_structure_footer {
+    width: 1290px !important;
+}
+.pkp_navigation_primary_wrapper{
+	width: 1360px !important;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+.pkp_structure_content{
+	/*width: 1168px;*/
+	width: 1200px;
+}
+.pkp_structure_main{
+width: 66.666%;
+/*width: 78%;*/
+}
+.main_pkp_structure_sidebar{
+	/*width: 33.333%;*/
+	width: 20%;
+}
+
+.pkp_site_name, .pkp_navigation_primary_wrapper, .pkp_navigation_user, .pkp_structure_content, .pkp_structure_footer {
+    width: 1160px;
+}
+
+
+
+.journals ul .has_thumb{
+	width: 28% !important;
+	}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+	.pkp_site_name_wrapper{
+	height: 150px;
+}
+	.pkp_site_name:before{
+		top:15px;
+	}
+	
+
+}
+
+@media only screen and (min-width: 768px) {
+	.pkp_structure_sidebar{
+		/*float: left;
+		width: 300px;*/
+		width: 100%;
+	}
+	.pkp_page_index .journals .thumb+.body {
+		clear: both;
+		width: 100%;
+	}
+	.pkp_page_index .journals .thumb{
+		width: 100%;
+		padding-right: 0;
+	}
+	
+	.journals ul .has_thumb{
+	
+	margin:10px 20px !important;
+}
+
+
+
+	}
+@media only screen and (min-width: 992px) {
+	.journals ul .has_thumb{
+	/*position: relative;*/
+	    height: 700px;
+	}
+
+	.pkp_page_index .journals .has_thumb .body{
+		height:60%;
+		position: relative;
+	}
+
+	.journals ul .has_thumb .links{
+
+	position: absolute;
+	bottom: 0;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+	
+}
+@media only screen and (min-width: 768px) {
+	.pkp_structure_main:before, .pkp_structure_main:after{
+	display: none !important;
+}
+	.pkp_page_index .journals > ul > li{
+		    border: 1px solid #ddd;
+		    margin-bottom: 30px;
+		    box-sizing: border-box;
+		    padding:20px;
+	}
+		
+}
+
+@media only screen and (max-width: 768px) {
+	.pkp_site_name, .pkp_navigation_primary_wrapper, .pkp_navigation_user, .pkp_structure_content, .pkp_structure_footer{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.pkp_page_index .journals{
+		width: 85%;
+	}
+	.pkp_site_name .is_text{
+	font-size:20px;
+	}
+	.thumb img, .cover img{
+		margin: 0 auto;
+	}
+
+}
+
+@media only screen and (max-width: 650px) {
+	.pkp_site_name, .pkp_navigation_primary_wrapper, .pkp_navigation_user, .pkp_structure_content, .pkp_structure_footer{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#pkp_content_footer .container .row .s12{
+		width: 100%;
+	}
+	.slider1{
+		height: 200px;
+	}
+	.pkp_site_name .is_text{
+	font-size:18px;
+
+	}
+	.pkp_structure_content{
+	width:100%;
+}
+
+}
+
+
+@media only screen and (max-width: 450px) {
+	.pkp_site_name, .pkp_navigation_primary_wrapper, .pkp_navigation_user, .pkp_structure_content, .pkp_structure_footer{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	/*.pkp_site_name .is_text{
+		padding-left: 5px;
+		margin-left: 120px;
+	}*/
+	/*.pkp_site_name:before{
+		margin-left: 10px;
+	}*/
+	.pkp_site_name .is_text{
+	font-size:16px;
+	line-height: 16px;
+	}
+	.page_index_site .journals{
+		width: 100%;
+	}
+	
+}
+
+
+.pkp_search{
+	z-index: 1;
+	top:43px !important;
+	right:12px !important;
+}
+
+.pkp_head_wrapper .pkp_search .search_controls a{
+	color: #fff !important;
+}
+
+
+@media only screen and (min-width: 992px) {
+	.pkp_structure_sidebar{
+		width: auto;
+	}
+.pkp_search.is_open{
+	width:300px !important;
+	max-width:300px !important;
+	min-width: 300px !important;
+	background-color: #0000 !important;
+}
+.is_open input[type="text"]{
+	width:300px !important;
+	max-width:300px !important;
+	background-color: #0000 !important;
+	color:#fff;
+	}
+.search_controls{
+	background-color: #0000 !important;
+}
+.pkp_search.is_open .search_prompt{
+	background-color: #0000 !important;
+	border-right: 1px solid #ddd;
+
+}
+.journals ul .has_thumb{
+	width: 43%;
+	}
+}
+
+.photo{
+	height: 300px;
+	width:100%;
+	background-image:url("https://ojs-test.up.krakow.pl/public/site/book1.jpg");
+	background-position: center -730px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+.przyciski{
+	width:100%;
+	font-size:26px;
+	text-align: center;
+	position: relative;
+	top:30%;
+
+}
+
+.przycisk{
+background-color:rgba(48,128,155, 0.6);
+border:1px solid #fff;
+padding:25px 0px;
+margin:10px 10px;
+transition: 0.5s;
+}
+
+.przycisk:hover{
+	background-color: rgba(48,128,155,1);
+	transition: 0.5s;
+}
+
+.przycisk a{
+	color:#fff;
+	padding:25px 30px;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px black;
+}
+
+@media only screen and (max-width: 992px) {
+	.photo{
+		background-size: 150% 100%;
+	}
+	.przyciski{
+		font-size:12px;
+		top:5%;
+	}
+	.przycisk{
+		width: 80%;
+		padding:16px 0px;
+	}
+
+}
+
+.pkp_page_index .journals .thumb img {
+	margin: 0 auto;
+	}
+
+	.pkp_page_index .journals .description{
+		    margin: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-height: 5;
+        max-height: 115px;
+	}
+
+	.journals .has_thumb .links li{
+		padding: 10px 0 0 0;
+	}
+
+	.obj_issue_toc .galleys, .obj_issue_toc .section{
+		padding: 10px;
+		margin: 10px;
+	}

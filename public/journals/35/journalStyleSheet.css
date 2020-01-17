@@ -1,0 +1,36 @@
+body {
+	     color: #050506;
+		 font-family: 'Hind Siliguri', sans-serif;		 
+	}
+	
+#header {
+		background-color: #663366;
+		color: #ffffff;
+		    }
+			
+ 		
+
+#navbar {
+	
+	border-bottom: thin solid #050506;
+	
+	}	
+	
+#content {
+	
+	border-top: thin solid #050506;
+	
+	}		
+
+#footer {background-color: #cccccc;}
+table.listing tr.fastTracked {background-color: #cccccc;}
+a {color: #32314A;}
+a:link {color: #32314A;}
+a:active {color: #97899A;}
+a:visited {color: #3D82D2;}
+a:hover {color: #C76953; background-color: #ffffff;}
+input.defaultButton {color: #669900;}
+body {background-color: #ffffff;}
+input.defaultButton {background-color: #484E60;}
+
+input.defaultButton {color: #ffffff;}

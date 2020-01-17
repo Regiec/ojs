@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  -->
+
+<locale name="pl_PL" full_name="Język Polski">
+	<message key="plugins.block.makeSubmission.displayName">Blok "Zgłoś artykuł"</message>
+	<message key="plugins.block.makeSubmission.description">This plugin provides a sidebar block with a "Make a Submission" link.</message>
+	<message key="plugins.block.makeSubmission.linkLabel">Zgłoś artykuł</message>
+</locale>

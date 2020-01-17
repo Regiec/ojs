@@ -1,0 +1,4 @@
+.htaccess
+config.inc.php
+package-lock.json
+/plugins/paymethod/paypal/composer.lock

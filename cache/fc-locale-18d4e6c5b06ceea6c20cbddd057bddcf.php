@@ -1,0 +1,15 @@
+<?php return array (
+  'plugins.generic.webfeed.displayName' => 'Wtyczka RSS/Atom',
+  'plugins.generic.webfeed.description' => 'Wtyczka generuje kanały RSS/Atom',
+  'plugins.generic.webfeed.settings' => 'Ustawienia',
+  'plugins.generic.webfeed.settings.issue' => 'Wyświetlaj łącza kanałów tylko na stronach numerów.',
+  'plugins.generic.webfeed.settings.homepage' => 'Wyświetlaj łącza kanałów na stronie głównej oraz na stronie numerów.',
+  'plugins.generic.webfeed.settings.all' => 'Wyświetlaj łącza kanałów na wszystkich stronach czasopisma.',
+  'plugins.generic.webfeed.settings.currentIssue' => 'Wyświetl artykuły z aktualnego numeru.',
+  'plugins.generic.webfeed.settings.recentArticles' => 'ostatnio opublikowanych artykułów.',
+  'plugins.generic.webfeed.settings.recentItemsRequired' => 'Podaj dodatnią liczbę dla ostatnio opublikowanych artykułów.',
+  'plugins.generic.webfeed.atom.altText' => 'Logo Atom',
+  'plugins.generic.webfeed.rss1.altText' => 'Logo RSS1',
+  'plugins.generic.webfeed.rss2.altText' => 'Logo RSS2',
+  'plugins.generic.webfeed.settings.recent' => 'Wyświetl ustaloną liczbę ostatnio opublikowanych artykułów.',
+); ?>

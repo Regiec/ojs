@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2013-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the pl_PL (Język Polski) locale.
+  *
+  -->
+
+<locale name="pl_PL" full_name="Język Polski">
+	<message key="plugins.importexport.quickSubmit.displayName">QuickSubmit Plugin</message>
+	<message key="plugins.importexport.quickSubmit.description">Formularz dodawania artykułu z pominięciem recenzji.</message>
+	<message key="plugins.importexport.quickSubmit.descriptionLong">Wtyczka pozwala dodać artykuł wprost do numeru archiwalnego badz planowanego z pominięciem klasycznej recenzji i redakcji.</message>
+	<message key="plugins.importexport.quickSubmit.success">Artykuł został dodany</message>
+	<message key="plugins.importexport.quickSubmit.successDescription">Stworzenie artykułu powiodło się.</message>
+	<message key="plugins.importexport.quickSubmit.successReturn">Powrót do wtyczki QuickSubmit.</message>	
+	<message key="plugins.importexport.quickSubmit.published">Opublikuj w numerze</message>
+	<message key="plugins.importexport.quickSubmit.unpublished">Pozostaw nieopublikowany</message>
+	<message key="plugins.importexport.quickSubmit.cancel">Zgłaszanie artykułu przerwane.</message>
+	<message key="plugins.importexport.quickSubmit.cancelDescription">Zgłoszenie artykułu zostało przerwane.</message>
+	<message key="plugins.importexport.quickSubmit.goToSubmission">Idź do szczegółów artykułu</message>
+	<message key="plugins.importexport.quickSubmit.selectIssue">Musi być wybrany konkretny numer.</message>
+</locale>

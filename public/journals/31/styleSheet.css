@@ -1,0 +1,58 @@
+#primaryNav .nav-link {
+    padding: 0.5rem;
+}
+
+#primaryNav .nav-link, #primaryNav .dropdown-item {
+    line-height: 1.1rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    border: 1px solid transparent;
+}
+#primaryNav .dropdown-menu.show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    background-color: darkorange;
+    border-radius: 0;
+}
+#primaryNav {
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    padding-top: 0rem;
+    background-color: darkorange;
+    padding-bottom: 0rem;
+    margin-bottom: 10px;
+}
+
+.navbar-logo img {
+    max-height: max-content; 
+}
+
+.navbar-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 0rem; 
+    max-width: max-content;
+    text-align: center;
+}
+.homepage-image-behind-issue:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+     background: none;
+}
